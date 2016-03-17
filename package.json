@@ -1,7 +1,7 @@
 {
-  "name": "loopback-sdk-angular",
+  "name": "loopback-sdk-vue",
   "version": "1.7.0",
-  "description": "Tool for auto-generating Angular $resource services for LoopBack",
+  "description": "Tool for auto-generating vue-resource for LoopBack",
   "main": "index.js",
   "scripts": {
     "prepublish": "node ./apidocs/describe-builtin-models.js",
@@ -10,17 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/strongloop/loopback-sdk-angular.git"
+    "url": "git://github.com/mdartic/loopback-sdk-vue.git"
   },
   "keywords": [
     "loopback",
-    "angular"
+    "vue",
+    "vue-resource"
   ],
   "author": "Miroslav Bajtos <miroslav@strongloop.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/strongloop/loopback-sdk-angular/issues"
-  },
   "dependencies": {
     "ejs": "^1.0"
   },
